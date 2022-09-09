@@ -1,6 +1,6 @@
-org: garethtest4
-app: aws-node-http-api-project
-service: aws-node-http-api-project
+org: sravs2510
+app: firstproject
+service: newproject
 frameworkVersion: '3'
 
 provider:
