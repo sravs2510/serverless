@@ -23,7 +23,7 @@ functions:
     handler: createCustomer.createCustomer
     events:
       - httpApi:
-          path: /
+          path: /*
           method: post
   getCustomers:
     handler: getCustomers.getCustomers
