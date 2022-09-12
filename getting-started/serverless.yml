@@ -23,13 +23,13 @@ functions:
     handler: createCustomer.createCustomer
     events:
       - httpApi:
-          path: /*
+          path: /
           method: post
   getCustomers:
     handler: getCustomers.getCustomers
     events: 
       - httpApi:
-          path: /*
+          path: /
           method: get
 resources:
   Resources:
